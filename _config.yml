@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: c60b2946df46d3f02a95                            #生成的clientID
   clientSecret: 4f6d0a9b4f573d54a7f937c19303682196ee570c    #生成的clientSecret
-  repo: https://smoothshadow.github.io/    #仓库名称
+  repo: gitalk-comments    #仓库名称
   owner: SmoothShadow    #github用户名
   admin: SmoothShadow
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
