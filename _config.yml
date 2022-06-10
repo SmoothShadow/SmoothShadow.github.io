@@ -1,7 +1,7 @@
 # Site settings
 title: 卡马逊乐园
 SEOTitle: 疏影的博客 | SmoothShadow Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/home-bg-o.jpg
 email: SmoothShadow2000@gmail.com
 description: "我是PVP 我打大啥b."
 keyword: "BY Blog, 疏影的博客, SmoothShadow, ff14, javascript, python"
@@ -11,8 +11,8 @@ github_repo: "https://github.com/SmoothShadow/SmoothShadow.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "唐牛才是食神!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "我是PVP 我打大啥b"
+sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -39,7 +39,8 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -64,7 +65,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: c60b2946df46d3f02a95                            #生成的clientID
   clientSecret: 4f6d0a9b4f573d54a7f937c19303682196ee570c    #生成的clientSecret
-  repo: https://smoothshadow.github.io/    #仓库名称
+  repo: gitalk-comments    #仓库名称
   owner: SmoothShadow    #github用户名
   admin: SmoothShadow
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
@@ -74,11 +75,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -86,7 +87,7 @@ ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定�
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -99,16 +100,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "nga",
+        href: "https://bbs.nga.cn/thread.php?fid=-362960"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "FF14wiki",
+        href: "https://ff14.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "素素",
+        href: "https://www.ffxiv.cn/v2/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "飞艇坪",
+        href: "https://www.ffxiv.co/"
     }
 ]
