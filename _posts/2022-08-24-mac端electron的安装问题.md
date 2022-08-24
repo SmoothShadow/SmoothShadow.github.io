@@ -45,4 +45,4 @@ sudo n stable
 //不是大潮吧当然选择稳定版
 ```
 解决之后最好把刚创建的项目删了重新创建一个，否则可能会遇到装好electron-builder却无法启动的情况
-![package.json里显示了依赖却还是找不到]](/img/2022-08-22-error.png)
+![package.json里显示了依赖却还是找不到](/img/2022-08-22-error.png)
